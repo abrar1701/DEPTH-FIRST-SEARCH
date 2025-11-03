@@ -1,7 +1,7 @@
 # BREADTH-FIRST-SEARCH
 <h1>ExpNo 3 : Implement Breadth First Search Traversal of a Graph</h1> 
-<h3>Name:  </h3>
-<h3>Register Number: </h3>
+<h3>Name: Mohamed Abrar M </h3>
+<h3>Register Number: 212223040111</h3>
 <H3>Aim:</H3>
 <p>To Implement Breadth First Search Traversal of a Graph using Python 3.</p>
 <h3>Theory:</h3>
@@ -71,22 +71,6 @@ Now, Queue becomes empty, So, terminate these process of iteration.
 from collections import deque
 from collections import defaultdict
 
-
-'''
-V E
-FOR EVERY EDGE
-U V
-7 9
-A B
-A C 
-A F
-C E
-C F
-C D
-D E 
-D G
-G F
-'''py
 def bfs(graph,start,visited,path):
     queue = deque()
     path.append(start)
